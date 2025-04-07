@@ -57,63 +57,63 @@ section {
 }
 
 /* Colores por sección */
-section.perfil {
+section.profile {
     border-left: 4px solid rgb(173, 212, 103);
 }
-section.perfil i,
-section.perfil h2 {
+section.profile i,
+section.profile h2 {
     color: rgb(173, 212, 103);
 }
-section.herramientas-y-tecnologías {
+section.tools-and-technologies {
     border-left: 4px solid rgb(249, 180, 78);
 }
-section.herramientas-y-tecnologías i,
-section.herramientas-y-tecnologías strong,
-section.herramientas-y-tecnologías h2,
+section.tools-and-technologies i,
+section.tools-and-technologies strong,
+section.tools-and-technologies h2,
 h1 {
     color: rgb(249, 180, 78);
 }
-section.experiencia-profesional {
+section.professional-experience {
     border-left: 4px solid rgb(158, 161, 224);
 }
-section.experiencia-profesional i,
-section.experiencia-profesional strong,
-section.experiencia-profesional h2 {
+section.professional-experience i,
+section.professional-experience strong,
+section.professional-experience h2 {
     color: rgb(158, 161, 224);
 }
-section.proyectos-personales-destacados {
+section.highlighted-personal-projects {
     border-left: 4px solid rgb(173, 212, 103);
 }
-section.proyectos-personales-destacados i,
-section.proyectos-personales-destacados h2 {
+section.highlighted-personal-projects i,
+section.highlighted-personal-projects h2 {
     color: rgb(173, 212, 103);
 }
-section.formación {
+section.education {
     border-left: 4px solid rgb(191, 132, 214);
 }
-section.formación i,
-section.formación strong,
-section.formación a,
-section.formación h2 {
+section.education i,
+section.education strong,
+section.education a,
+section.education h2 {
     color: rgb(191, 132, 214);
 }
-section.formación a:hover {
+section.education a:hover {
     color: rgb(240, 219, 188);
 }
-section.habilidades {
+section.skills {
     border-left: 4px solid rgb(191, 132, 214);
 }
-section.habilidades i,
-section.habilidades strong,
-section.habilidades h2 {
+section.skills i,
+section.skills strong,
+section.skills h2 {
     color: rgb(191, 132, 214);
 }
-section.idiomas-y-otros-datos {
+section.languages-and-other-information {
     border-left: 4px solid rgb(158, 161, 224);
 }
-section.idiomas-y-otros-datos i,
-section.idiomas-y-otros-datos strong,
-section.idiomas-y-otros-datos h2 {
+section.languages-and-other-information i,
+section.languages-and-other-information strong,
+section.languages-and-other-information h2 {
     color: rgb(158, 161, 224);
 }
 

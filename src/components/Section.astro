@@ -2,13 +2,22 @@
 const { title, content, icon } = Astro.props;
 
 // Clase CSS basada en el título (normalizamos a minúsculas y reemplazamos espacios)
-const sectionClass = title.toLowerCase().replace(/\s+/g, '-');
+const titleToClassMap = {
+  "Profile": "profile",
+  "Tools and Technologies": "tools-and-technologies",
+  "Professional Experience": "professional-experience",
+  "Featured Personal Projects": "highlighted-personal-projects",
+  "Education": "education",
+  "Skills": "skills",
+  "Languages and Other Info": "languages-and-other-information"
+};
+const sectionClass = titleToClassMap[title] || title.toLowerCase().replace(/\s+/g, '-')
 ---
 
 <section class={sectionClass}>
   <h2><i class={`fas ${icon} title-icon`}></i> {title}</h2>
   <div class="content">
-    {title === "Herramientas y Tecnologías" ? (
+    {title === "Tools and Technologies" ? (
       <ul class="tools-list">
         {Array.isArray(content) && content.map(category => (
           <li>
