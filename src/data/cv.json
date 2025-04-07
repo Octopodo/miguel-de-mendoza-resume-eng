@@ -23,16 +23,16 @@
                         {
                             "name": "Frameworks and Libraries",
                             "details": [
-                                "Django",
-                                "Django REST Framework",
                                 "Vue.js/Vuetify",
+                                "Astro",
+                                "Django REST Framework",
+                                "Django",
                                 "TensorFlow",
                                 "PyTorch",
-                                "Scikit-learn",
-                                "Angular/React"
+                                "Scikit-learn"
                             ]
                         },
-                        { "name": "Tools", "details": ["Git", "Npm/vite", "Node.js", "Webpack", "Gulp"] },
+                        { "name": "Tools", "details": ["Git", "Npm", "Vite", "Rollup", "Node.js", "Pip"] },
                         { "name": "Testing", "details": ["Vitest", "Pytest"] }
                     ]
                 },
@@ -49,9 +49,10 @@
             "title": "Professional Experience",
             "content": [
                 {
-                    "text": "<strong>Camera Operator & Video Editor - Corporate Training Courses</strong> (Mar 2024 - Mar 2025)<br>Recorded and edited audiovisual content for corporate training courses, ensuring high visual and narrative quality.<br>Developed a system using <span class='tech'>Extendscript</span> and <span class='tech'>Adobe CEP</span> to automate editing in <span class='tech'>Adobe Premiere</span> and <span class='tech'>After Effects</span>, reducing time per piece from 5-6 hours to 1 hour (80% efficiency improvement).",
+                    "text": "<strong>Camera Operator & Video Editor - Corporate Training Courses</strong> (Feb 2024 - Mar 2025)<br>Recorded and edited audiovisual content for corporate training courses, ensuring high visual and narrative quality.<br>Developed a system using <span class='tech'>Extendscript</span> and <span class='tech'>Adobe CEP</span> to automate editing in <span class='tech'>Adobe Premiere</span> and <span class='tech'>After Effects</span>, reducing time per piece from 5-6 hours to 1 hour (80% efficiency improvement).",
                     "url": ""
                 },
+
                 {
                     "text": "<strong>Freelance Post-Production Developer</strong> (Oct 2016 - Apr 2019)<br>Created scripts for diferent companies like Forpro and Sr Balboa,  in <span class='tech'>JavaScript</span> and <span class='tech'>ExtendScript</span> to optimize post-production workflows, saving 30% in delivery times.<br>Designed interactive interfaces with <span class='tech'>Vue.js</span> and <span class='tech'>Adobe CEP</span> for animation projects, improving usability and client experience.",
                     "url": ""
@@ -72,6 +73,10 @@
                 {
                     "text": "<strong>KT Extendscript Builder</strong> (In development)<br>Developing a CLI with <span class='tech'>Vite</span> and <span class='tech'>Rollup</span> to transpile <span class='tech'>TypeScript</span> to <span class='tech'>Extendscript</span>, allowing After Effects and Premiere developers to use the latest JavaScript features in their scripts, saving significant development time.",
                     "url": "https://github.com/Octopodo/kt-extendscript-builder"
+                },
+                {
+                    "text": "<strong>KT Extendscript Testing Suite</strong>(In development)<br> Development of a testing suite for <span class='tech'>Extendscript</span> Adobe extensions, based on <span class='tech'>Vitest</span> testing tools, allowing developers to test their code in a <span class='tech'>Typescript/ExtendScript</span> environment. Includes base matchers and extensibility features to develop app specific matchers.",
+                    "url": "https://github.com/Octopodo/kt-testing-suite-core"
                 },
                 {
                     "text": "<strong>LTTR (Predictive Lottery)</strong> (In development)<br>Backend in <span class='tech'>Django/Django REST Framework</span> for automated scraping of lottery results (Euromillions, Primitiva).<br>Trained AI models with <span class='tech'>TensorFlow</span> and <span class='tech'>ResNets</span> to predict results, achieving a scalable data pipeline.<br>Frontend in <span class='tech'>Vue.js</span> to manage scraping, training, and metrics visualization.",
@@ -102,7 +107,7 @@
             "title": "Skills",
             "content": [
                 "Full stack development: <span class='tech'>Python</span>, <span class='tech'>Django</span>, <span class='tech'>Vue.js</span>, <span class='tech'>TensorFlow</span>, <span class='tech'>PyTorch</span>",
-                "Artificial intelligence: Predictive models, <span class='tech'>ResNets</span>, data scraping",
+                "Artificial intelligence: Predictive models, <span class='tech'>ResNets</span>, <span class='tech'> ConvNets</span>, <span class='tech'>LSTM Models</span>, Data Scraping",
                 "Automation: <span class='tech'>Extendscript</span>, <span class='tech'>CEP</span>, process optimization",
                 "Technical creativity: Motion graphics and animation as a differentiator",
                 "Strong analytical skills, fast learner, and collaborative team player"
@@ -111,7 +116,7 @@
         {
             "title": "Languages and Other Info",
             "content": [
-                "<strong>Languages:</strong> English (B1 - Upper Intermediate), Catalan (Native)",
+                "<strong>Languages:</strong> English (B1 equivalent - Upper Intermediate), Catalan (Native)",
                 "<strong>Other:</strong> Driver's license, hardware experience, sound technician"
             ]
         }
